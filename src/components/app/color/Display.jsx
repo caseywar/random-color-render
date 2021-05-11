@@ -1,13 +1,12 @@
-import PropTypes from 'prop-types';
+import React from 'react';
+// import PropTypes from 'prop-types';
 
-const Display = ({}) => (
-    <div>
-
-    </div>
+const Display = ({ bgColor }) => (
+    <div style={{ background: bgColor, height: '300px', width: '300px' }}>.</div>
 );
 
-Display.PropTypes = {
-
-}
+// Display.propTypes = {
+//   bgColor: PropTypes.string.isRequired
+// }
 
 export default Display;
