@@ -7,7 +7,7 @@ const Display = ({ bgColor }) => (
             background: bgColor, 
             height: '300px', 
             width: '300px' 
-        }}>.
+        }}>
     </div>
 );
 

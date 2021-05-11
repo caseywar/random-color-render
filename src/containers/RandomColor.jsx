@@ -3,7 +3,7 @@ import Display from '../components/app/color/Display'
 
 export default class RandomColor extends Component {
     state = {
-        bgColor: '#FF0000'
+        bgColor: '#FF0000',
     };
 
     randomColorArray = () => {
@@ -25,7 +25,7 @@ export default class RandomColor extends Component {
         return (
             <>
             <div>
-                <Display bgColor={this.state.bgColor} />
+                <Display bgColor={this.state.bgColor}  />
             </div>
             </>
         )
